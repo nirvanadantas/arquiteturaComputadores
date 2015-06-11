@@ -2,8 +2,8 @@
 .data 
 resp1: .asciiz "13 meses \n"
 resp2: .asciiz "12 meses \n"
-.text 
 
+.text 
 main: 
    addi $2,$0,5 
    syscall  #Ano gregoriano (normal)
